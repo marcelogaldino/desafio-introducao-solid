@@ -16,7 +16,7 @@ class ListAllUsersController {
     } catch (error) {
       return response
         .status(400)
-        .json({ error: `Couldn't find user: ${error}` });
+        .json({ error: `Couldn't find users: ${error}` });
     }
   }
 }
